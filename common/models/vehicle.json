@@ -13,6 +13,33 @@
     "year": {
       "type": "number",
       "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "rented": {
+      "type": "boolean",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    },
+    "updated_at": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
