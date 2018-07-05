@@ -10,7 +10,8 @@ module.exports = function(Vehicle) {
     },
   });
 
-  Vehicle.validateAsync('manufacturerId', validateAsyncForManufacturerId, {});
+  Vehicle.validateAsync('manufacturerId', validateAsyncForManufacturerId,
+    {message: 'Manufacturer doesn\'t exist'});
 
   // This function verifies the manufacturerId passed in the request exists
   function validateAsyncForManufacturerId(error, next) {
