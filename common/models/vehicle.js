@@ -28,4 +28,13 @@ module.exports = function(Vehicle) {
         next();
       });
   }
+
+  // Other example of async validator
+  // https://strongloop.com/strongblog/examples-of-validations-for-loopback-models/
+
+  // MySQL Connector
+  // https://loopback.io/doc/en/lb3/Connecting-to-MySQL.html
+
+  // Model definition
+  // https://loopback.io/doc/en/lb3/Model-definition-JSON-file.html
 };

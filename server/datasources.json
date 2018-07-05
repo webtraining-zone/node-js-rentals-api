@@ -3,5 +3,14 @@
     "name": "db",
     "connector": "memory",
     "file": "vehicles-database.json"
+  },
+  "mysql_db": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "awesome_car_rental_db",
+    "password": "rootroot",
+    "name": "mysql_db",
+    "user": "root",
+    "connector": "mysql"
   }
 }
