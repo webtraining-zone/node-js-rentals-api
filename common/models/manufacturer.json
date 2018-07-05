@@ -12,13 +12,19 @@
     },
     "description": {
       "type": "string"
-    },
-    "manufacturerId": {
-      "type": "number"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "vehicles": {
+      "type": "hasMany",
+      "model": "Vehicle",
+      "foreignKey": "manufacturerId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

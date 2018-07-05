@@ -5,7 +5,8 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "Vehicle": 3
+    "Vehicle": 3,
+    "Manufacturer": 4
   },
   "models": {
     "User": {},
@@ -14,8 +15,13 @@
     "RoleMapping": {},
     "Role": {},
     "Vehicle": {
-      "1": "{\"model\":\"GT-R\",\"year\":2018,\"price\":250,\"link\":\"http://en.wikipedia.org/wiki/Nissan_Gt-r\",\"image\":\"Nissan-GT-R.jpg\",\"rented\":true,\"thumbnail\":\"Nissan-GT-R-thumbnail.jpg\",\"created_at\":\"2018-05-25T04:22:20.000Z\",\"updated_at\":\"2018-05-25T04:22:20.000Z\",\"id\":1}",
-      "2": "{\"model\":\"M3\",\"year\":2017,\"price\":150,\"link\":\"http://en.wikipedia.org/wiki/Bmw_m3\",\"image\":\"BMW-M3.jpg\",\"rented\":false,\"thumbnail\":\"BMW-M3-thumbnail.jpg\",\"created_at\":\"2018-05-24T21:22:20.000Z\",\"updated_at\":\"2018-05-24T21:22:20.000Z\",\"id\":2}"
+      "1": "{\"model\":\"GT-R\",\"year\":2018,\"price\":250,\"link\":\"http://en.wikipedia.org/wiki/Nissan_Gt-r\",\"image\":\"Nissan-GT-R.jpg\",\"rented\":true,\"thumbnail\":\"Nissan-GT-R-thumbnail.jpg\",\"created_at\":\"2018-05-25T04:22:20.000Z\",\"updated_at\":\"2018-05-25T04:22:20.000Z\",\"id\":1,\"manufacturerId\":1}",
+      "2": "{\"model\":\"M3\",\"year\":2017,\"price\":150,\"link\":\"http://en.wikipedia.org/wiki/Bmw_m3\",\"image\":\"BMW-M3.jpg\",\"rented\":false,\"thumbnail\":\"BMW-M3-thumbnail.jpg\",\"created_at\":\"2018-05-24T21:22:20.000Z\",\"updated_at\":\"2018-05-24T21:22:20.000Z\",\"id\":2,\"manufacturerId\":2}"
+    },
+    "Manufacturer": {
+      "1": "{\"name\":\"BMW\",\"description\":\"BMW\",\"id\":1}",
+      "2": "{\"name\":\"Toyota\",\"description\":\"Toyota\",\"id\":2}",
+      "3": "{\"name\":\"Audi\",\"description\":\"Audi\",\"id\":3}"
     }
   }
 }
