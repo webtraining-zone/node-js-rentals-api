@@ -2,6 +2,6 @@
   "db": {
     "name": "db",
     "connector": "memory",
-    "file":"vehicles-database.json"
+    "file": "vehicles-database.json"
   }
 }
