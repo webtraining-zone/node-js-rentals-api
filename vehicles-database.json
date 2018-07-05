@@ -6,7 +6,7 @@
     "RoleMapping": 1,
     "Role": 1,
     "Vehicle": 3,
-    "Manufacturer": 4
+    "Manufacturer": 6
   },
   "models": {
     "User": {},
@@ -21,7 +21,9 @@
     "Manufacturer": {
       "1": "{\"name\":\"BMW\",\"description\":\"BMW\",\"id\":1}",
       "2": "{\"name\":\"Toyota\",\"description\":\"Toyota\",\"id\":2}",
-      "3": "{\"name\":\"Audi\",\"description\":\"Audi\",\"id\":3}"
+      "3": "{\"name\":\"Audi\",\"description\":\"Audi\",\"id\":3}",
+      "4": "{\"name\":\"Honda\",\"description\":\"Honda\",\"id\":4}",
+      "5": "{\"name\":\"Nissan\",\"description\":\"Nissan\",\"id\":5}"
     }
   }
 }
