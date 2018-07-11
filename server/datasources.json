@@ -12,5 +12,15 @@
     "name": "mysql_db",
     "user": "root",
     "connector": "mysql"
+  },
+  "mysql_db_auth": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "",
+    "database": "awesome_car_rental_db_auth",
+    "password": "rootroot",
+    "name": "mysql_db_auth",
+    "user": "root",
+    "connector": "mysql"
   }
 }
