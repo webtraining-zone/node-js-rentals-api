@@ -1,0 +1,36 @@
+{
+  "name": "Rental",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "vehicle_id": {
+      "type": "number",
+      "required": true
+    },
+    "starts_on": {
+      "type": "date",
+      "required": true
+    },
+    "ends_on": {
+      "type": "date",
+      "required": true
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
