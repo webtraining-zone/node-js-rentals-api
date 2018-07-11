@@ -8,6 +8,9 @@
       "table": "vehicles"
     }
   },
+  "scope": {
+    "include": "manufacturer"
+  },
   "properties": {
     "model": {
       "type": "string",
@@ -50,9 +53,6 @@
         "columnName": "manufacturer_id"
       }
     }
-  },
-  "scope": {
-    "include": "manufacturer"
   },
   "validations": [],
   "relations": {
