@@ -42,5 +42,12 @@
   "Manufacturer": {
     "dataSource": "mysql_db",
     "public": true
+  },
+  "Rental": {
+    "dataSource": "mysql_db_auth",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "mysql_db_auth"
   }
 }

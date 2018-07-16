@@ -63,6 +63,15 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "customers": {
+      "type": "hasMany",
+      "model": "Customer",
+      "foreignKey": "customerId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Rental"
     }
   },
   "acls": [

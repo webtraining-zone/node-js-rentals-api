@@ -6,13 +6,19 @@
     "validateUpsert": true
   },
   "properties": {
-    "user_id": {
+    "customerId": {
       "type": "number",
-      "required": true
+      "required": true,
+      "mysql": {
+        "columnName": "user_id"
+      }
     },
-    "vehicle_id": {
+    "vehicleId": {
       "type": "number",
-      "required": true
+      "required": true,
+      "mysql": {
+        "columnName": "vehicle_id"
+      }
     },
     "starts_on": {
       "type": "date",
@@ -30,7 +36,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "customer": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": "customerId"
+    },
+    "vehicle": {
+      "type": "belongsTo",
+      "model": "Vehicle",
+      "foreignKey": "vehicleId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
